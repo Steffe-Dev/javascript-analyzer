@@ -99,7 +99,10 @@ the _index_ in that array? When using an \`Object\`, what does the value mean?
 Re-using \`colorCode\` explains this in both cases.
 
 💬 Using a helper method is good practice, because it replaces a cryptic "member
-call" with a named call, that can be documented individually.
+call" with a named call, that can be documented individually. That being said, if
+the student uses an \`Object\` with a descriptive name, like \`colorToResistance\`,
+leading to code like \`colorToResistance[firstColor]\`, that's also fine, since the
+question of clarity posed above would be addressed by the descriptive name.
 `('javascript.resistor-color-duo.must_use_a_helper', CommentType.Actionable)
 
 const ISSUE_METHOD_NOT_FOUND = factory<'method.name'>`
